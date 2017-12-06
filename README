@@ -1,0 +1,14 @@
+The src directory houses a file called input.txt.  The first line of thsi fiel
+denotes the size of one row of the map. Meaning, the overall mapsize is the 
+(first line)^2.  Every line after that represents a new drone with a target 
+equal to the number on the line. In order to run different simulations,
+you should edit this file following the above guidelines then run the make
+command from the root directory.
+
+Once make has completed, type ./dcas to run the simulation
+
+Observe as the map simulates the input.  The square in the top left houses
+the airport and is denoted by a [B].  When a drone has just taken off from
+the airport or is attemping to land on the airport, this space will appear
+as [D].  Any space that houses a drone will be denoted with as [D] while
+any space that does not will appear as empty brackers [ ].
