@@ -1,4 +1,4 @@
-The src directory houses a file called input.txt.  The first line of thsi fiel
+The src directory houses a file called input.txt.  The first line of this file
 denotes the size of one row of the map. Meaning, the overall mapsize is the 
 (first line)^2.  Every line after that represents a new drone with a target 
 equal to the number on the line. In order to run different simulations,
